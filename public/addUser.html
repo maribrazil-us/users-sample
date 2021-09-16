@@ -86,8 +86,9 @@
         };
 
         // post user
-       // const url = "/add";
-        const url = 'http://localhost:3000/add';
+       const url = 'https://app-users-sample.herokuapp.com/add';
+       //const url = 'http://localhost:3000/add';
+
         superagent
           .post(url)
           .send(user)
